@@ -1,0 +1,165 @@
+* {
+	padding:0;
+	margin:0;
+}
+.container{
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url('Picture/back.jpg');
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+	position: relative;
+}
+.header {
+	display: flex;
+	padding:30px 120px;
+	font-family:bebas;
+	font-size: 25px;
+}
+.header a{
+	text-decoration: none;
+	color: #fff;
+}
+.link{
+	flex: 1;
+	font-family:bebas;
+}
+.link ul {
+	margin-left: 50px;
+	display: inline;
+}
+.link ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 15px 10px;
+}
+.link ul a{
+	color: #fff;
+	text-decoration: none;
+	font-size:15px;
+}
+.link ul li a::after{
+	content:'';
+	width:0;
+	height:2px;
+	background: #fff;
+	display: block;
+	margin: auto;
+	transform: translateX(0);
+	transition: 0.5s;
+}
+.link ul li a:hover::after{
+	width:100%;
+}
+.btn{
+	padding: 10px 20px;
+	border: 0;
+	background: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+.btn{
+	float: right;
+}
+.btn:hover{
+	background: transparent;
+	color: white;
+}
+.banner-title{
+	margin: 80px 120px;
+	color: #fff;
+	font-family: bebas;
+}
+.banner-title h1{
+	font-size: 70px;
+	margin-bottom: 10px;
+}
+.btn1{
+	padding: 10px 20px;
+	border: 1px solid white;
+	font-weight: bold;
+	cursor: pointer;
+}
+.col{
+	font-family: bebas;
+}
+.row h1 {
+	display: flex;
+	width: 500px;
+	height: 88%;
+	align-items: center;
+	margin: 75px 400px;
+	font-family: bebas;
+}
+.row h1{
+	font-size: 70px;
+	font-family: bebas;
+}
+.card{
+	width: 200px;
+	height: 225px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 20px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 50px 55px;
+	background-position: center;
+	background-size: cover;
+	color: #FFFAFA:
+}
+h5{
+	margin: 155px 0 0 0;
+	font-size: 20px;
+	color: #FFFAFA:
+}
+p{
+	color: #FFFF00:
+	font-family: roboto;
+	font-weight: bold;
+}
+.card1{
+	background-image: url(Picture/skate.jpg);
+}
+.card2{
+	background-image: url(Picture/hem.jpg);
+}
+.card3{
+	background-image: url(Picture/jaket.jpg);
+}
+.card4{
+	background-image: url(Picture/polocoklat.jpg);
+}
+.card5{
+	background-image: url(Picture/listrik.jpeg);
+}
+.card6{
+	background-image: url(Picture/jaketbiru.jpg);
+}
+.card7{
+	background-image: url(Picture/handbag.jpg);
+}
+.card8{
+	background-image: url(Picture/gelang.jpg);
+	
+}
+
+}
+.container3{
+	margin: 80px 120px;
+	color: #fff;
+}
+.container3 h1{
+	font-size: 70px;
+	margin-bottom: 10px;
+}
+h4{
+	font-family: roboto light;
+	font-size: 15px;
+}
+footer{
+	padding: 25px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
